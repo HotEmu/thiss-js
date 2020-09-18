@@ -1,7 +1,7 @@
 import { dom, library } from '@fortawesome/fontawesome-svg-core';
-import { faPen } from '@fortawesome/free-solid-svg-icons/faPen';
+import { faPlusSquare } from '@fortawesome/free-solid-svg-icons/faPlusSquare';
 
-library.add(faPen);
+library.add(faPlusSquare);
 dom.watch();
 
 import {DiscoveryService, ds_response_url} from "@theidentityselector/thiss-ds";
