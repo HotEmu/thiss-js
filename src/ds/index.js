@@ -108,7 +108,6 @@ $(document).ready(function() {
         persistence: process.env.PERSISTENCE_URL,
         search: process.env.SEARCH_URL,
         context: process.env.DEFAULT_CONTEXT,
-        inputfieldselector: "#searchinput",
         render_search_result: function(item) {
             $("#searching").hide();
             if (timer) {
